@@ -1,10 +1,10 @@
 [caps]
-            platformName: "iOS",
-            platform: "iOS",
-            automationName: "XCUITest",
-            deviceName: "iPhone 8, 11.2",
-            udid: "2A9E043F-BD0A-4613-96F3-B25F2CA0B4F9",
-            bundleId: "com.calendre.live", #Prodcution com.calendre.live Staging com.calendre.staging.live
-            xcodeOrgId: "L7PW2SQ6N4", #Prodcution L7PW2SQ6N4 Staging KZ22KFNH7Z
-            xcodeSigningId: "iPhone Developer",
-            newCommandTimeout: "3600"
+            platformName = "iOS"
+            platform = "iOS"
+            automationName = "XCUITest"
+            deviceName = "iPhone 8, 11.2"
+            udid = "2A9E043F-BD0A-4613-96F3-B25F2CA0B4F9"
+            bundleId = "com.calendre.live" #Prodcution com.calendre.live Staging com.calendre.staging.live
+            xcodeOrgId = "L7PW2SQ6N4" #Prodcution L7PW2SQ6N4 Staging KZ22KFNH7Z
+            xcodeSigningId = "iPhone Developer"
+            newCommandTimeout = "3600"

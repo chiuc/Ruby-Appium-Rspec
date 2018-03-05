@@ -1,5 +1,3 @@
-require 'spec_helper'
-require 'leave_feedback_spec'
 require 'rspec'
 require 'rspec/expectations'
 require 'appium_lib'
