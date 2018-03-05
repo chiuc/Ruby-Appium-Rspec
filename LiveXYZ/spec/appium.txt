@@ -1,0 +1,10 @@
+[caps]
+      platformName: "iOS",
+          platform: "iOS",
+          automationName: "XCUITest",
+          deviceName: "iPhone 8, 11.2",
+          udid: "2A9E043F-BD0A-4613-96F3-B25F2CA0B4F9",
+          bundleId: "com.calendre.staging.live",
+          xcodeOrgId: "C5Y5V24V2J",
+          xcodeSigningId: "iPhone Developer",
+          newCommandTimeout: "3600"
