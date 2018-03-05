@@ -1,12 +1,14 @@
-require '../spec_helper'
-require '../features/on_boarding_spec'
+require 'spec_helper'
+require 'on_boarding_spec'
 require 'rspec'
+require 'rspec/expectations'
 require 'appium_lib'
 require 'rubygems'
 require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest/element/text'
 
-describe 'Onboarding Screen to orientate new users and returning users to app' do
+
+RSpec.describe 'Onboarding Screen to orientate new users and returning users to app' do
 
   it 'The app opens, the on boarding screen will display and I confirm the page has a skip button' do
     expect($driver.find_element(accessibility_id: 'Skip').text).to eq('Skip')

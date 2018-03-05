@@ -1,5 +1,5 @@
-require '../spec_helper'
-require '../features/locate_me_spec'
+require 'spec_helper'
+require 'locate_me_spec'
 require 'rspec'
 require 'rspec/expectations'
 require 'appium_lib'
@@ -8,7 +8,7 @@ require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest/element/text'
 
 
-describe 'I can easily find my location anytime on the map' do
+RSpec.describe 'I can easily find my location anytime on the map' do
 
   it 'I click on the locate me button' do
     $driver.find_element(accessibility_id: 'Skip').click

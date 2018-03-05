@@ -1,5 +1,5 @@
-require '../spec_helper'
-require '../features/leave_feedback_spec'
+require 'spec_helper'
+require 'leave_feedback_spec'
 require 'rspec'
 require 'rspec/expectations'
 require 'appium_lib'
@@ -8,7 +8,7 @@ require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest/element/text'
 
 
-describe 'I want to be able to leave feedback as I use this cool new app' do
+RSpec.describe 'I want to be able to leave feedback as I use this cool new app' do
 
   it 'I click on the gear setting icon, I should see a list of options' do
     $driver.find_element(accessibility_id: 'settings icon darkmap').click

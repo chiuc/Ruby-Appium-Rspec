@@ -1,5 +1,5 @@
-require '../spec_helper'
-require '../features/map_mode_spec'
+require 'spec_helper'
+require 'map_mode_spec'
 require 'rspec'
 require 'rspec/expectations'
 require 'appium_lib'
@@ -7,7 +7,7 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest/element/text'
 
-describe 'I can change between a light map or a dark map' do
+RSpec.describe 'I can change between a light map or a dark map' do
 
   it ' I my app launches on the dark map mode, I can click the setting icon' do
     $driver.find_element(accessibility_id: 'Skip').click

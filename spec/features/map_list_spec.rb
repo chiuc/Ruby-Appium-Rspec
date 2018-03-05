@@ -1,5 +1,5 @@
-require '../spec_helper'
-require '../features/map_list_spec'
+require 'spec_helper'
+require 'map_list_spec'
 require 'rspec'
 require 'rspec/expectations'
 require 'appium_lib'
@@ -8,7 +8,7 @@ require 'selenium-webdriver'
 require 'appium_lib/ios/xcuitest/element/text'
 
 
-describe(' To organize some cool lists of venues and events, I can create our own map lists') do
+RSpec.describe(' To organize some cool lists of venues and events, I can create our own map lists') do
 
   it 'I click on the map icon I will go to the Maplists page' do
     $driver.find_element(accessibility_id: 'profile icon').click
